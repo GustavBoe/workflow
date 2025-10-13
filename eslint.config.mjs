@@ -1,7 +1,6 @@
-import js from "@eslint/js";
+import pluginJs from "@eslint/js";
 import globals from "globals";
 import { defineConfig } from "eslint/config";
-import plugin from "tailwindcss";
 
 export default defineConfig([
   pluginJs.configs.recommended,
