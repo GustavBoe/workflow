@@ -6,27 +6,27 @@ This is a course assignement for the Workflow course. The project is made to pra
 
 ### Install dependencies
 
-npm install
+`npm install`
 
 ### Running the project
 
-npm run dev
+`npm run dev`
 
 ### Running tests
 
 **For unit tests**
 
-npm run unit
+`npm run unit`
 
 **For end to end tests**
 
-npm run e2e // Runs "npx playwright test"
+`npm run e2e` // Runs "npx playwright test"
 
-npm run e2e:ui // Runs "npx playwright test --ui"
+`npm run e2e:ui` // Runs "npx playwright test --ui"
 
-npm run e2e:headed //Runs "npx playwright test --headed"
+`npm run e2e:headed` //Runs "npx playwright test --headed"
 
-npm run e2e:debug //Runs "npx playwright test --debug"
+`npm run e2e:debug` //Runs "npx playwright test --debug"
 
 ## Environment Variables
 
