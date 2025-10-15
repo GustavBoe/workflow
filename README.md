@@ -33,6 +33,7 @@ npm run e2e:debug //Runs "npx playwright test --debug"
 This project uses environment variables. Create a .env file in the root of your project with the following format:
 
 TEST_USER_EMAIL=your-user-email-here
+
 TEST_USER_PASSWORD=your-password-here
 
 ## Available Scripts
