@@ -1,7 +1,7 @@
 node_modules/
 .env
 /.eslintcache
-.husky
+
 # Playwright
 /test-results/
 /playwright-report/
