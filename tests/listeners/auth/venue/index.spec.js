@@ -5,9 +5,8 @@ test.describe("Venue", () => {
     page,
   }) => {
     await page.goto("/");
-    await page
-      .locator('a[href= "/venue/?id=ef304070-9956-4a1a-9d1d-40fd0c0d0272"]')
-      .click();
+    await page.waitForSelector("#venue-container a");
+    await page.locator("#venue-container a").first().click();
     await expect(page.locator("h1")).toContainText("Venue details");
   });
 });

@@ -16,6 +16,6 @@ describe("getUserName", () => {
   it("returns null when no user exists in storage", () => {
     clearStorage();
     const testUser = getUsername();
-    expect(testUser).toBe(null);
+    expect(testUser).toBeNull();
   });
 });
